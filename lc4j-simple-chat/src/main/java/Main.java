@@ -10,7 +10,7 @@ public class Main {
                 .modelName("gpt-4o-mini")
                 .build();
 
-        final String answer = model.chat("Say 'Hello World' in portuguese");
+        final String answer = model.chat("Say 'Hello World' in Portuguese");
         System.out.println(answer); // "Olá Mundo"
     }
 
